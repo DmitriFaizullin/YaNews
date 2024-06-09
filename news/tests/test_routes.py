@@ -8,6 +8,7 @@ from news.models import Comment, News
 
 User = get_user_model()
 
+
 class TestRoutes(TestCase):
 
     @classmethod
